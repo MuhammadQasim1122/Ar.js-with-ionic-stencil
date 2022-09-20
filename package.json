@@ -2,13 +2,16 @@
   "name": "stencil-ar",
   "private": true,
   "version": "0.0.1",
+  "homepage": "https://muhammadqasim1122.github.io/Ar.js-with-ionic-stencil/",
   "description": "Stencil App Starter",
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@stencil-community/router": "^1.0.2",
@@ -20,6 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ionic/core": "^6.2.7"
+    "@ionic/core": "^6.2.7",
+    "gh-pages": "^4.0.0"
   }
 }

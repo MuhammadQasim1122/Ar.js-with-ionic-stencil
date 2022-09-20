@@ -20,10 +20,11 @@ export class AppHome {
     });
     await modal.present();
   }
+
   render() {
     return [
       <ion-button onClick={() => this.openModal()}>Augmented Reality</ion-button>,
-      <ion-button onClick={() => this.openModal1()}>AR with Location-Based</ion-button>
+      <ion-button onClick={() => this.openModal1()}>Location Based AR</ion-button>
     ];
   }
 }
