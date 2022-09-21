@@ -14,7 +14,7 @@ export class ArLauncher {
     return [
       <ion-header>
   <ion-toolbar>
-    <ion-title>ARLauncher</ion-title>
+    <ion-title>AR Location Based</ion-title>
     <ion-buttons slot="start">
             <ion-button onClick={() => this.closeModal()}>
               <ion-icon name="close"></ion-icon>
